@@ -20,74 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10fcb93e-80c8-4120-95bf-128dded5b772" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/reponsitory/BaseReponsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/reponsitory/iMusicReponsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/reponsitory/impl/musicReponsitoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/service/iMusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/java/code/service/impl/musicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/resources/buildSql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/resources/hibernate.conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../5_ORM/ung_dung/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/repository/IBlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/config/AppInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/repository/IGeneralRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/java/code/service/IGeneralService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thuc_hanh/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/repository/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/java/spring_boot/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7_Spring_boot/blog/src/main/resources/templates/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1_Tong_Quan_Spring_MVC/thuc_hanh/QuanLyKhachHang/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../1_Tong_Quan_Spring_MVC/thuc_hanh/QuanLyKhachHang/customer-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_view_thymeleaf/qly_san_pham/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +205,11 @@
       <option name="presentableId" value="Default" />
       <updated>1665571809603</updated>
       <workItem from="1665571817421" duration="12605000" />
-      <workItem from="1666003822653" duration="3800000" />
+      <workItem from="1666003822653" duration="5279000" />
+      <workItem from="1666164334526" duration="3279000" />
+      <workItem from="1666179109184" duration="4384000" />
+      <workItem from="1666188526009" duration="137000" />
+      <workItem from="1666354774416" duration="25000" />
     </task>
     <servers />
   </component>
@@ -294,58 +245,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1665584329422" />
-    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1665581556473">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1666166374916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1665581556473" />
-    <state width="1142" height="264" key="GridCell.Tab.0.bottom" timestamp="1666007653536">
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1666166374916" />
+    <state width="1142" height="264" key="GridCell.Tab.0.bottom" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.0.center" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.0.center" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.0.left" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.0.left" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.0.right" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.0.right" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.1.bottom" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.1.bottom" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.1.center" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.1.center" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.1.left" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.1.left" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.1.right" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.1.right" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.2.bottom" timestamp="1666007653537">
+    <state width="1142" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.2.bottom" timestamp="1666010191527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666007653537" />
-    <state width="1142" height="264" key="GridCell.Tab.2.center" timestamp="1666007653537">
+    <state width="1142" height="264" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666010191527" />
+    <state width="1142" height="264" key="GridCell.Tab.2.center" timestamp="1666010191526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1666007653537" />
-    <state width="1142" height="264" key="GridCell.Tab.2.left" timestamp="1666007653536">
+    <state width="1142" height="264" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1666010191526" />
+    <state width="1142" height="264" key="GridCell.Tab.2.left" timestamp="1666010191521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1666007653536" />
-    <state width="1142" height="264" key="GridCell.Tab.2.right" timestamp="1666007653537">
+    <state width="1142" height="264" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1666010191521" />
+    <state width="1142" height="264" key="GridCell.Tab.2.right" timestamp="1666010191527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1142" height="264" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1666007653537" />
+    <state width="1142" height="264" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1666010191527" />
     <state width="1142" height="264" key="GridCell.Tab.3.bottom" timestamp="1666007239183">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -362,9 +313,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1142" height="264" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1666007239183" />
-    <state x="118" y="0" key="new project wizard" timestamp="1665577283212">
+    <state x="118" y="0" key="new project wizard" timestamp="1666166377249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="118" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1665577283212" />
+    <state x="118" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1666166377249" />
   </component>
 </project>
