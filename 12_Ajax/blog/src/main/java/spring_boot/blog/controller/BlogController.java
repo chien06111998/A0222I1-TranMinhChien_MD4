@@ -24,9 +24,8 @@ public class BlogController {
 
     @GetMapping("/list")
     public String showList(Model model, @RequestParam(value = "page", defaultValue = "1") int page){
-//        model.addAttribute("categoryList", categoryService.findAll(PageRequest.of(page, 1)));
+        model.addAttribute("blogList", blogService.findAll(PageRequest.of(page, 25)));
         model.addAttribute("categoryList", categoryService.findAll());
-        model.addAttribute("blogList", blogService.findAll(PageRequest.of(page, 1)));
         return "list";
     }
 
