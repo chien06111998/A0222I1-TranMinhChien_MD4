@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="align-content: center">Create new Information</h1>
+<a th:href="@{/list}">Back to list</a>
+<br>
+<div th:if="${mess}">
+    <h3 th:text="${mess}" style="color: red"></h3>
+    <br>
+</div>
+<br>
+<form th:action="@{/create}" method="post" th:object="${informationList}">
+    <table class="table table-hover">
+        <tr>
+            <td>Title</td>
+            <td><input type="text" th:field="*{title}"></td>
+            <td th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <select th:field="*{category}">
+                    <option value="">Select</option>
+                    <option
+                            th:each="type : ${categoryList}"
+                            th:value="${type.id}"
+                            th:text="${type.name}"
+                    ></option>
+                </select>
+            </td>
+        </tr>
+            <tr>
+                <td>Content</td>
+                <td><input type="text" th:field="*{content}"></td>
+            </tr><tr>
+            <td>Gender</td>
+            <td><input type="date" th:field="*{date}"></td>
+        </tr>
+            <tr>
+                <td>Report</td>
+                <td><input type="text" th:field="*{report}"></td>
+                <td th:if="${#fields.hasErrors('report')}" th:errors="*{report}"></td>
+            </tr>
+        </tr>
+        <tr>
+            <td>
+                <a href="/list"><input type="submit" value="Create" /></a>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

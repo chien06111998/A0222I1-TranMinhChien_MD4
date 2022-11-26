@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#search").on("click",function(){
+                let nameSearch = document.getElementById("name").value;
+                let jsonText = {
+                    "nameSearch" : nameSearch
+                }
+                $.ajax({
+                    type:"get",  //gửi bằng phương thức get
+                    url:"api/search",
+                    datatype:"text",
+                    data:{key:$(jsonText).val()},    // lấy giá trị tại input có id="tk"
+                    success:function(load_data){
+                        if (result.hasOwnProperty('data') && result.hasOwnProperty('paging'))
+                        {
+                            var html = '<table border="1" cellspacing="0" cellpadding="5">';
+                            html += '<tr style="font-weight:bold">';
+                            html += '<td>Name</td>';
+                            html += '<td>describe</td>';
+                            html += '<td>Category</td>';
+                            html += '</tr>';
+
+                            // Lặp qua từng record và gán html
+                            $.each(result['data'], function (index, item){
+                                html += '<tr>';
+                                html += '<td>'+item.name_blog+'</td>';
+                                html += '<td>'+item.describe_blog+'</td>';
+                                html += '<td>'+item.id_category+'</td>';
+                                html += '</tr>';
+                            });
+
+                            html += '</table>';
+
+                            // Thêm html paging
+                            html += result['paging'];
+
+                            // Gán kết quả vào div#content
+                            $('#content').html(html);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <center>
+        <input type="text" name="nameSearch" placeholder="Input name blog">
+        <input type="submit" value="search" id="search">
+    </center>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#search").on("click",function(){
+                let nameSearch = document.getElementById("name").value;
+                let jsonText = {
+                    "nameSearch" : nameSearch
+                }
+                console.log(nameSearch);
+                $.ajax({
+                    type:"get",  //gửi bằng phương thức get
+                    url:`api/search?nameSearch=${nameSearch}`,
+                    datatype:"text",
+                    success:function(event){
+                        if (result.hasOwnProperty('data'))
+                        {
+                            var html = '<table border="1" cellspacing="0" cellpadding="5">';
+                            html += '<tr style="font-weight:bold">';
+                            html += '<td>Name</td>';
+                            html += '<td>describe</td>';
+                            html += '<td>Category</td>';
+                            html += '</tr>';
+
+                            // Lặp qua từng record và gán html
+                            $.each(result['data'], function (index, item){
+                                html += '<tr>';
+                                html += '<td>'+item.name+'</td>';
+                                html += '<td>'+item.describe+'</td>';
+                                html += '<td>'+item.categoryId+'</td>';
+                                html += '</tr>';
+                            });
+                            html += '</table>';
+                            // Gán kết quả vào div#content
+                            $('#content').html(html);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<center>
+    <input type="text" name="nameSearch" id="name" placeholder="Input name blog">
+    <input type="submit" value="search" id="search">
+</center>
+</body>
+</html>
